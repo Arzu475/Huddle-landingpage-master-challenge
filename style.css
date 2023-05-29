@@ -235,7 +235,7 @@ body {
 
 .links-1, 
 .links-2 {
-    margin-top: 2rem;
+    margin-top: 3rem;
     
 }
 
@@ -285,7 +285,7 @@ body {
     justify-content: center;
     align-items: center;
     margin-right: 0.5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     border: 0.1rem solid #fff;
     border-radius: 50%;
     text-decoration: none;
@@ -306,23 +306,11 @@ ion-icon:hover {
 }
 
 .copyright {
-    transform: translateY(4.5rem);
+    transform: translateY(5.5rem);
     font-size: 0.8rem;
     font-family: 'Poppins', sans-serif;
     color: var(--Very-Pale-Cyan);
     font-weight: 600;
-}
-
-.attribution { 
-  font-size: 0.8rem; 
-  text-align: center; 
-  display: flex;
-  justify-content: center;
-  font-family: 'Open Sans', sans-serif;
-  background-color: var(--Very-Dark-Cyan);
-}
-.attribution a {
-   color: hsl(228, 45%, 44%); 
 }
 
  @media  (max-width: 400px){
@@ -509,10 +497,7 @@ ion-icon:hover {
     .copyright {
       font-size: 0.7rem;
     }
-    
-    .attribution {
-      margin-top: 3.5rem;
-    }
+  
 
     @media (min-width: 768px) and (max-width: 1000px){
 
