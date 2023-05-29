@@ -154,12 +154,12 @@ body {
 }
 
 .single-col {
-    width: 55%;
-    transform: translate(45%, -21rem);
+    width: 57%;
+    transform: translate(38%, -23rem);
     position: absolute;
    background-color: #fff;
-   box-shadow: 0 0 0.5rem 0.2rem rgba(0, 0, 0, 0.103);
-   border-radius: 0.7rem;
+   box-shadow: 0 0 0.3rem 0.2rem rgba(0, 0, 0, 0.103);
+   border-radius: 0.9rem;
    padding-top: 2rem;
    padding-bottom: 2rem;
 }
@@ -230,7 +230,7 @@ body {
 .contact {
    width: 32%;
    color: var(--Very-Pale-Cyan);
-
+   padding-top: 1.5rem;
 }
 
 .links-1, 
@@ -509,6 +509,10 @@ ion-icon:hover {
     .copyright {
       font-size: 0.7rem;
     }
+    
+    .attribution {
+      margin-top: 3.5rem;
+    }
 
     @media (min-width: 768px) and (max-width: 1000px){
 
@@ -538,8 +542,8 @@ ion-icon:hover {
        }
 
        .description-head button {
-        margin-inline: auto;
-        width: 18rem;
+        margin-inline: 7.5rem;
+        width: 19rem;
        }
 
        .description-col {
@@ -554,7 +558,8 @@ ion-icon:hover {
         gap: 0;
        }
         .single-col {
-          width: 50%;
+          width: 70%;
+         transform: translate(22%, -22rem);
         }
         .contact {
           width: 90%;
