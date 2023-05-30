@@ -413,6 +413,10 @@ ion-icon:hover {
       flex-direction: column;
       gap: 1rem;
     }
+
+    .middle .description-col p {
+      width: 100%;
+    }
   
     .middle img {
       width: 100%;
